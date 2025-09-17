@@ -40,7 +40,7 @@ public class DeptController {
     //一旦声明了@RequestParam，该参数在请求时必须传递，如果不传递将会报错
     @Log
     @DeleteMapping
-    public Result delete(Integer id){
+    public Result delete(@RequestParam Integer id){
         //System.out.println("根据ID删除部门：" + id);
         log.info("根据ID删除部门：" + id);
         deptService.deleteById(id);

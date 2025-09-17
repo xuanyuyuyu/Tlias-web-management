@@ -29,7 +29,7 @@ public class EmpController {
     private EmpService empService;
 
     @GetMapping
-    public Result page(EmpQueryParam empQueryParam){
+    public Result page( EmpQueryParam empQueryParam){
         log.info("分页查询：{}",empQueryParam);
         PageResult<Emp> pageResult = empService.page(empQueryParam);
 

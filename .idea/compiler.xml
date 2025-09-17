@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="tlias-web-management" />
       </profile>
@@ -16,12 +17,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-aop-quickstart (1)" />
         <module name="springboot-web-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop-quickstart" target="17" />
+      <module name="springboot-aop-quickstart (1)" target="17" />
       <module name="springboot-web-config" target="17" />
     </bytecodeTargetLevel>
   </component>

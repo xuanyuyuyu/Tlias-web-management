@@ -10,11 +10,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
-    @Autowired
-    private TokenIntercepor tokenIntercepor;
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(tokenIntercepor).addPathPatterns("/**").excludePathPatterns("/login");
-
-    }
+//    @Autowired
+//    private TokenIntercepor tokenIntercepor;
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(tokenIntercepor).addPathPatterns("/**").excludePathPatterns("/login");
+//
+//    }
 }

@@ -13,8 +13,7 @@
             <if test="gender != null">gender = #{gender},</if>
             <if test="phone != null and phone != ''">phone = #{phone},</if>
             <if test="job != null">job = #{job},</if>
-            <if test="salary != null">salary = #
-                {salary},</if>
+            <if test="salary != null">salary = #{salary},</if>
             <if test="image != null and image != ''">image = #{image},</if>
             <if test="entryDate != null">entry_date = #{entryDate},</if>
             <if test="deptId != null">dept_id = #{deptId},</if>
